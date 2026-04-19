@@ -8,7 +8,7 @@ import type {
  * Base URL for all TheMealDB API requests.
  * Each helper function appends its endpoint to this string.
  */
-const BASE_URL = "https://www.themealdb.com/api/json/v1/1";
+export const BASE_URL = "https://www.themealdb.com/api/json/v1/1";
 
 /**
  * Fetches data from TheMealDB API and returns it as the expected type.
